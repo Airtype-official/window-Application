@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Air Type - Your Smartphone is Your Remote Keyboard</title>
+
+<meta name="description" content="Download Air Type PC Server to instantly type from your smartphone directly into your Windows PC using Wi-Fi. Fast, secure and seamless remote typing.">
+<meta name="keywords" content="Air Type, remote typing, phone to pc typing, wireless keyboard, Air Type Server, Windows typing tool">
+<meta name="author" content="Air Type Official">
+
+<meta property="og:title" content="Air Type - PC Server Download">
+<meta property="og:description" content="Type instantly from your smartphone directly into your PC with Air Type Server.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://airtypeapp.github.io/air-type-app/">
+
+<style>
+/* ग्लोबल स्टाइल */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    background-color: #d1d5db; /* Grey Background */
+    overflow-x: hidden; 
+}
+
+/* HEADER */
+header { 
+    background: linear-gradient(135deg, #007bff, #0056b3); 
+    color: white; 
+    padding: 60px 20px; 
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+/* CONTAINER */
+.container { 
+    padding: 40px 20px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+/* DOWNLOAD CARD */
+.download-card { 
+    background: #cbd5e1; 
+    padding: 40px; 
+    border-radius: 25px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+    text-align: center; 
+    max-width: 700px; 
+    margin: 0 auto 30px auto; 
+    border-top: 5px solid #007bff; 
+}
+
+.download-card h2 { 
+    color: #0056b3; 
+    margin-top: 0;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+}
+
+/* WINDOWS APP IMAGE STYLING */
+.app-screenshot {
+    width: 100%;
+    max-width: 500px; 
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    border: 4px solid white;
+    display: block;
+}
+
+/* MAIN DOWNLOAD BUTTON with Hover Effect */
+.btn-download { 
+    display: inline-block; 
+    background: linear-gradient(135deg, #007bff, #0056b3); 
+    color: white; 
+    padding: 18px 44px; 
+    border-radius: 50px; 
+    text-decoration: none; 
+    font-size: 1.1em; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    transition: 0.35s ease; 
+    box-shadow: 0 10px 25px rgba(0, 86, 179, 0.3);
+}
+
+.btn-download:hover { 
+    transform: translateY(-4px) scale(1.02); 
+    box-shadow: 0 16px 35px rgba(0, 86, 179, 0.5); 
+}
+
+/* YOUTUBE BUTTON with Hover Effect */
+.btn-youtube { 
+    display: inline-block; 
+    background: #fee2e2; 
+    color: #b91c1c; 
+    padding: 12px 30px; 
+    text-decoration: none; 
+    border-radius: 30px; 
+    margin-top: 20px; 
+    font-weight: 600; 
+    transition: 0.3s ease;
+    border: 1px solid #fecaca;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-youtube:hover { 
+    background: #ef4444; 
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+/* INFO BOX */
+.info-box { 
+    background: #eef7ff; 
+    padding: 25px; 
+    border-radius: 15px; 
+    margin: 20px auto; 
+    border-left: 5px solid #007bff; 
+    text-align: left;
+    max-width: 700px;
+}
+
+.info-box h3 { 
+    color: #0056b3; 
+    margin-top: 0;
+}
+
+/* WARNING BOX */
+.warning { 
+    background: #fff3cd; 
+    padding: 15px; 
+    border-radius: 10px; 
+    color: #856404; 
+    font-size: 0.95em; 
+    border-left: 4px solid #856404;
+    max-width: 700px; 
+    margin: 30px auto;
+    text-align: left;
+}
+
+/* FOOTER */
+footer { 
+    background: #1a1a1a; 
+    color: white; 
+    padding: 40px 0; 
+    margin-top: 60px; 
+    width: 100%; 
+}
+
+.footer-btn { 
+    display: inline-block; 
+    background: #e1f5fe; 
+    color: #01579b; 
+    padding: 10px 25px; 
+    text-decoration: none; 
+    border-radius: 30px; 
+    margin-bottom: 20px; 
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.footer-btn:hover { 
+    background: #00b0ff; 
+    color: white;
+    transform: translateY(-2px);
+}
+
+footer p { color: #ccc; font-size: 0.85em; margin: 5px 0; }
+
+@media (max-width: 600px) {
+    .container { padding: 20px 10px; } 
+    .download-card, .info-box, .warning { width: 95%; padding: 20px 15px; box-sizing: border-box; } 
+    .btn-download { padding: 15px 25px; font-size: 1em; width: 90%; } 
+    .app-screenshot { max-width: 100%; height: auto; } 
+    h1 { font-size: 1.8em; } 
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Air Type Server</h1>
+    <h2 style="color: white; margin-top: 20px;">🎉 Air Type: Quick Start Guide</h2>
+    <p>Seamless remote typing between your smartphone and computer.</p>
+</header>
+
+<div class="container">
+
+<div class="download-card">
+    <h2>Download Server</h2>
+    <img src="windows_app_preview.png" alt="Air Type Windows Application" class="app-screenshot">
+    <p>Air Type lets you instantly type text from your smartphone directly into your PC over local Wi-Fi. Fast, seamless, and secure.</p>
+
+    <a class="btn-download"
+       href="https://github.com/AirTypeApp/Air-Type-Server/releases/download/v1.0.0/Air.Type.Server.zip"
+       rel="noopener noreferrer">
+        Download for Windows (.zip)
+    </a>
+
+    <br>
+
+    <a class="btn-youtube"
+       href="https://youtu.be/K-Md100LjBI?si=AGoehhpW9WnXaDcI"
+       target="_blank"
+       rel="noopener noreferrer">
+        ▶ Watch Setup Tutorial
+    </a>
+</div>
+
+<div class="info-box">
+    <h3>📱 What is Air Type?</h3>
+    <p>Air Type is a professional utility designed for automated typing between your smartphone and your computer. By using the companion Air Type mobile app, you can instantly transmit text from your phone, and the server will automatically type it into any active application on your PC in real-time.</p>
+    <p>Whether you are working in Notepad, MS Word, web browsers, chat apps, or form fields, Air Type helps you type faster and more comfortably by turning your phone into a wireless input device.</p>
+</div>
+
+<div class="info-box">
+    <h3>🚀 Key Features</h3>
+    <ul>
+        <li><strong>Instant Remote Typing</strong> – Text typed on your phone appears instantly on your PC screen.</li>
+        <li><strong>Zero Lag Experience</strong> – Enjoy a smooth, real-time connection with no delay.</li>
+        <li><strong>Universal Compatibility</strong> – Works with any active desktop application or text field (Notepad, Word, etc.).</li>
+        <li><strong>One-Tap Connection</strong> – Quickly pair devices using a QR Code or IPv4 address.</li>
+        <li><strong>Wireless & Secure</strong> – Uses local Wi-Fi network, <b>no internet data required</b>.</li>
+        <li><strong>Smart Security</strong> – Actual text transfer stays within your local network and does not consume your internet data.</li>
+    </ul>
+</div>
+
+<div class="info-box">
+    <h3>⚙️ How It Works</h3>
+    <ol>
+        <li>Install and launch <b>Air Type Server</b> on your computer.</li>
+        <li>Open the <b>Air Type mobile app</b> on your smartphone.</li>
+        <li>Sign in using Google and connect using QR code or IPv4 address.</li>
+        <li>Start typing — your text appears instantly on your PC!</li>
+    </ol>
+</div>
+
+<div class="info-box">
+    <h3>🛠️ Detailed Setup Guide</h3>
+    
+    <strong>Step 1: Install Air Type Server on PC</strong>
+    <ul>
+        <li><strong>Download & Unzip:</strong> Right-click the downloaded file and Extract (Unzip) it.</li>
+        <li><strong>Run Setup:</strong> Double-click the installer file. Click 'More info' and 'Run anyway' if prompted by Windows.</li>
+        <li><strong>Permissions:</strong> Click 'Yes' on the User Account Control prompt.</li>
+        <li><strong>Install:</strong> Choose your destination folder (Default: C:\Program Files (x86)\Air Type Server) and follow the prompts.</li>
+        <li><strong>Launch:</strong> Ensure 'Launch Air Type Server' is checked and click Finish.</li>
+    </ul>
+
+    <br>
+    
+    <strong>Step 2: Connect the Mobile App</strong>
+    <ul>
+        <li>Open the Air Type app on your smartphone.</li>
+        <li>Sign in using your Google account.</li>
+        <li><strong>To Connect:</strong> Scan the QR code displayed on the Server interface OR manually enter the IPv4 address shown on the dashboard.</li>
+        <li>Tap the <strong>Connect</strong> button.</li>
+        <li><strong>Start Typing:</strong> Any text you send from the app will now be typed instantly into the active application on your PC.</li>
+    </ul>
+</div>
+
+<div class="info-box">
+    <h3>🎯 Ideal For</h3>
+    <ul>
+        <li><strong>Long Typing Tasks:</strong> Use mobile voice-to-text or comfortable phone keyboards for long documents.</li>
+        <li><strong>Quick Transfers:</strong> Copy a link or text on your phone and "type" it directly into your PC browser.</li>
+        <li><strong>Remote Productivity:</strong> Work faster without switching back and forth between devices.</li>
+        <li><strong>Efficiency:</strong> Perfect for users who find mobile typing faster than physical keyboards.</li>
+    </ul>
+</div>
+
+<div class="info-box">
+    <h3>🔍 Troubleshooting Tips</h3>
+    <ul>
+        <li><strong>Same Network:</strong> Ensure both your smartphone and PC are connected to the same Wi-Fi network.</li>
+        <li><strong>Firewall Permissions:</strong> If it won't connect, check that Windows Firewall is not blocking "Air Type Server."</li>
+        <li><strong>IP Match:</strong> Double-check that the IPv4 address entered in the app matches the one shown on your Desktop Server dashboard exactly.</li>
+    </ul>
+    <p><strong>Pro Tip:</strong> You can download the Air Type Server directly within the mobile app and share the link to your desktop to get started even faster!</p>
+</div>
+
+<div class="warning">
+    <strong>Note:</strong> Windows PC only • Do not install server on mobile devices.
+</div>
+
+</div>
+
+<footer>
+    <a href="https://airtypeapp.github.io/air-type-app/" class="footer-btn">
+        Go to Official Site
+    </a>
+    <p>© 2026 Air Type Official. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
